@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: rgba(114, 45, 211, 0.301); */
+    width: 100%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("./images/pexels-james-wheeler-1519088.jpg");
+    /* background-position: center; */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: cover; */
+    
+
+}
+.container{
+    width: 500px;
+    min-height: 500px;
+    background-color: rgba(94, 90, 90, 0.415);
+    border-radius: 20px;
+    margin: auto;
+    /* border: 3px solid rgb(19, 18, 18); */
+    box-shadow: 10px 10px 5px  rgb(141, 125, 125);
+    
+    
+
+}
+h2{
+    padding-top: 10px;
+    text-align: center;
+}
+.labels{
+    margin-left: 30px;
+    
+}
+.input,select{
+    font-size: 17px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(129, 243, 243);
+    /* margin-left: 50px; */
+}
+.divcont{
+    margin-top: 20px;
+    color: rgba(10, 1, 27, 0.953);
+}
+.btn{
+    width:100px;
+    padding: 7PX;
+    margin:50px 30px auto;
+    background-color: rgb(14, 1, 24);
+    color: white;
+    border-radius: 30px;
+    font-size: medium;
+    transition: 0.5s;
+    cursor: pointer;
+    
+    
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transform: translate(2px);
+    /* transform: rotate(-360deg); */
+    /* transform: scale(0.9); */
+    /* transform: skew(2deg, -2deg); */
+    
+
+    /* font-weight: bold; */
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <div class="container">
+            <h2>Registration Form</h2>
+            <form action="./msg.html">
+                <div class="divcont">
+                    <label for="" class="labels"  value="fname">Enter your first name :</label>
+                    <input class="input" type="text" placeholder="Enter your first name" required>
+                </div>
+                <div class="divcont">
+                    <label for="" class="labels"  value="lname">Enter your last name :</label>
+                    <input class="input" type="text" placeholder="Enter your last name">
+                </div>
+                <div class="divcont">
+                    <label for="" class="labels"  value="password">Enter your password :</label>
+                    <input class="input" type="password" placeholder="Enter your password" required>
+                </div>
+                <div class="divcont">
+                    <label for="" class="labels"  value="number">Enter your phone number :</label>
+                    <input class="input" type="number" placeholder="0000000000" required>
+                </div>
+                <div class="divcont">
+                    <label for="" class="labels"  value="dob">Enter your Date of Birth :</label>
+                    <input class="input" type="date" required>
+                </div>
+                <div class="divcont">
+                    <label for="" class="labels"  value="time">Enter your Time :</label>
+                    <input class="input" type="time" required>
+                </div>
+                <div class="divcont">
+                    <label for="" class="labels"  value="gender">Select your gender :</label>
+                    <input class="input" type="radio" name="gender">Male
+                    <input class="input" type="radio" name="gender">Female
+                    <input class="input" type="radio" name="gender">other
+                </div>
+                <div class="divcont">
+                    <label for="" class="labels"  value="hobbies">Select your hobbies :</label>
+                    <input class="input" type="checkbox" name="hobbies">Cricket
+                    <input class="input" type="checkbox" name="hobbies">Coding
+                    <input class="input" type="checkbox" name="hobbies">Music
+                </div>
+                <div class="divcont">
+                    <label for="" class="labels"  value="city">Select City : </label>
+                    <select name="city" id="">
+                        <option disabled selected >select city</option>
+                        <option name="Delhi" id=""> Delhi</option>
+                        <option name="Patna" id=""> Patna</option>
+                        <option name="Mathura" id=""> Mathura</option>
+                        <option name="Rajasthan" id=""> Rajasthan</option>
+                        <option name="Haryana" id=""> Haryana</option>
+                    </select>
+                </div>
+                <div class="divcount">
+                    <button class="btn">Submit</button>
+                    <button class="btn">Reset</button>
+                </div>
+            </form>
+    </div>
+    <script>
+        var Input=document.getElementsByClassName(".lables");
+    </script>
+</body>
+</html>
